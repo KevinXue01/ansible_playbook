@@ -3,6 +3,6 @@
   remote_user: root
   tasks:
     - name: Check the date on the server.
-      command: date
+      shell: date >> /tmp/xue
     - name: Check the ip ip on the server.
       command: ip add
